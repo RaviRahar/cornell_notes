@@ -12,11 +12,8 @@ class App extends React.Component {
     super(props);
     this.state = {
       markDownContent: {
-        cues: [
-          "helloman",
-          "loremipsums dafjdls;kgja;lkgj;lakjfg;lkkjdfkgjlfdkjglkfjsl;gkajdslk;jgdsflklfg",
-        ],
-        notes: ["helloman", "## this is it man"],
+        cues: [],
+        notes: [],
         summary: [],
       },
       headings: { cues: ["Cues"], notes: ["Notes"], summary: ["Summary"] },
